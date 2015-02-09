@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutFrontScreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/front_page_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/syncLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+                android:id="@+id/banner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="0dp"
+                >
+				
+            </LinearLayout>
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="SYNCHRONIZING USERS........."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="100dp"
+            android:text="GAME BEGINS IN......."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="80dp"
+            android:text="GET READY FOR THE QUIZ"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="ALL THE VERY BEST"
+            android:textColor="#FFFFFF" />
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="vertical"  >
+            
+             <LinearLayout
+            android:id="@+id/banner2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="vertical" >
+            
+        	</LinearLayout>
+             
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFirstScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/front_page_quiz" />
+
+        <Button
+            android:id="@+id/startGameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/start_game_background" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profile_background" />
+
+        <Button
+            android:id="@+id/optionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/options_background"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/leaderboardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/leaderboards_background" />
+
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help_background" />
+		
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tncLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:linksClickable="true"
+                android:text="See our terms of service &amp; privacy policy"
+                android:textColor="#ffffff"
+                android:background="@android:color/transparent"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/banner"
+                android:layout_marginBottom="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        </LinearLayout>
+
+</LinearLayout>

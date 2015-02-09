@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/syncLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/quiz_background"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ht2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:text="Game Rules."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ht3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="1$Quiz game is fun packed multiplayer educational quiz contest consisting 10 questions each game.1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ht4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text="It is the first ever real time quiz game where you compete with people all round the globe." />
+
+                <TextView
+                    android:id="@+id/ht5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text="Compete with your friends using Facebook login." />
+
+                <TextView
+                    android:id="@+id/ht6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text ="For each question you get 10 seconds to choose the right answer."
+                    android:inputType="textMultiLine" />
+                
+                <TextView
+                    android:id="@+id/ht7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text ="Each correct answer fetch you 1 point."
+                    android:inputType="textMultiLine" />
+                
+                  <TextView
+                    android:id="@+id/ht8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text ="The user who answers all 10 questions correctly wins $1."
+                    android:inputType="textMultiLine" />
+                  
+                  <TextView
+                    android:id="@+id/ht9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:text ="The badges gets unlocked as you progress in the game."
+                    android:inputType="textMultiLine" />
+                  
+                  <TextView
+                    android:id="@+id/ht10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                     android:textSize="18dp"
+                    android:text ="Get a chance to win $1 every 3 minute."
+                    android:inputType="textMultiLine" />
+                  
+                  <TextView
+                    android:id="@+id/ht11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#FFFFFF"
+                     android:textSize="18dp"
+                    android:text ="So, hurry up start playing without wasting a minute."
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

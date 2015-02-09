@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/syncLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/quiz_background"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+                android:id="@+id/banner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="5dp"
+                >
+				
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="PROCESSING RESULT........."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="PLEASE WAIT......."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="30"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:id="@+id/banner2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal|bottom"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/winnerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/front_page_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/front_page_quiz" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/congratulations" />
+
+        <TextView
+            android:id="@+id/winnerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/winner"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/your_score"
+            android:gravity="center"
+            android:text="YOUR SCORE 10 POINTS"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/reviewAnswersButton"
+            android:layout_width="279dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/review_answers" />
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_height="33dp"
+            android:layout_width="279dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/continue_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reviewAnswersLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/front_page_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/front_page_quiz" />
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/review_answers_header" />
+
+        <TextView
+            android:id="@+id/answersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/answer_backgrounds"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:gravity="center|bottom"
+		    android:orientation="vertical"
+		    android:paddingBottom="10dp" >
+	        <Button
+	            android:id="@+id/conti"
+	            android:layout_width="279dp"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/continue_button" />
+		</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

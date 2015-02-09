@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/front_page_background" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/outer_container"
+        android:orientation="vertical"
+         >
+
+        <RelativeLayout
+            android:id="@+id/rel_outer_container"
+            android:layout_width="fill_parent"
+            android:layout_height="459dp" >
+
+            <TextView
+                android:id="@+id/label_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/quiz_text_view"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/rel_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_bar"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <EditText
+                    android:id="@+id/et_uname"
+                    style="@style/EditText"
+                    android:hint="Email..." >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/et_pass"
+                    style="@style/EditText"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Password..."
+                    android:inputType="textPassword" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/img_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:id="@+id/tv_remember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Remember my username and password"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/login_login" />
+
+                <Button
+                    android:id="@+id/btn_login_facebook"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/log_in_facebook" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/new_user_btn" />
+            </LinearLayout>
+
+	  
+        </RelativeLayout>
+          <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_marginBottom="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center_horizontal|bottom"
+	            android:orientation="vertical" >
+	
+	            <Button
+	                android:id="@+id/tncLink"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="10dp"
+	                android:linksClickable="true"
+	                android:text="See our terms of service &amp; privacy policy"
+	                android:textColor="#ffffff"
+	                android:background="@android:color/transparent"
+	                android:textSize="12sp" />
+	
+	            <LinearLayout
+	                android:id="@+id/banner"
+	                android:layout_marginBottom="0dp"
+	        		android:layout_weight="1"
+	                android:layout_width="match_parent"
+	                android:gravity="center_horizontal|bottom"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical" >
+	
+	            </LinearLayout>
+
+        	</LinearLayout>
+       </LinearLayout>
+
+</LinearLayout>

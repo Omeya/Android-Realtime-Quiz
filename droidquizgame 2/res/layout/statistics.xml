@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/front_page_background" >
+
+    <LinearLayout
+        android:id="@+id/outer_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+<RelativeLayout
+    android:id="@+id/rel_outer_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+     
+    <TextView
+        android:id="@+id/label_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/quiz_statistics_page"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_bar"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/friendsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/friends_clicked" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_separator" />
+
+        <Button
+            android:id="@+id/usersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/users_unclicked" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons2Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonsLayout"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/lastGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/last_game_clicked" />
+
+        <Button
+            android:id="@+id/allGamesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/all_games_unclicked" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/firstRawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttons2Layout"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/firstNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/firstPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+         
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondRawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstRawLayout"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/secondNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/secondPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+          
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:id="@+id/thirdRawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRawLayout"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/thirdNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/thirdPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+           
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/fourthRawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdRawLayout"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/fourthNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fourthPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/fifthRawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fourthRawLayout"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/fifthNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fifthPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+           
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>
